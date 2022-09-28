@@ -1,0 +1,77 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0px;
+  display: block;
+  background: #ff7b54;
+  font-family: Montserrat;
+  color: #fec046;
+  font-weight: bold;
+  line-height: 40px;
+  margin: auto;
+  background-image: url(https://gregmolyneuxphotography.com/wp-content/uploads/2014/09/last-summer-fire-or-first-fall-burn.jpg)
+}
+#title {
+  font-size: 48px;
+}
+#description {
+  font-size: 26px;
+}
+#title,
+#description {
+  text-align: center;
+}
+div.center {
+  text-align: left;
+  margin: 0 auto;
+  width: 100%;
+}
+#survey-form {
+  background: rgba(40, 30, 57, .7);
+  padding: 20px;
+  margin: auto;
+  width: 500px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+input[type="text"] {
+  width: 500px;
+  height: 30px;
+}
+input[type="number"] {
+  width: 500px;
+  height: 30px;
+}
+input[type="email"] {
+  width: 500px;
+  height: 30px;
+}
+input[type="checkbox radio"] {
+  width: 15px;
+  height: 15px;
+}
+input[type="textarea"] {
+  font-family: Montserrat;
+  border-radius: 10px;
+}
+#submit {
+  font-family: Montserrat;
+  color: #fec046;
+  background: rgba(40, 30, 57, 1);
+  font-size: 20px;
+  border: white solid 1px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px;
+  margin: 20px 0px
+}
+#mindfulness,
+#fitness-level {
+  width: 500px;
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 20px;
+}
+#other {
+  font-family: Montserrat;
+  font-size: 20px;
+}

@@ -1,0 +1,99 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<h1 id="title">
+  Mental Health Survey
+</h1>
+<h3 id="description">
+  We appreciate your feedback!
+</h3>
+<div>
+  <form id="survey-form" class="center">
+    <div>
+      <label for="name" id="name-label">Name
+      </label>
+    </div>
+    <div>
+      <input id="name" name="name" type="text" placeholder="Please enter your name" required>
+    </div>
+    <div>
+      <label for="email" id="email-label">Email</label>
+    </div>
+    <div>
+      <input type="email" id="email" name="email" placeholder="Please enter your email" required>
+    </div>
+    <div>
+      <label id="age-label" for="age">Age (optional)</label>
+    </div>
+    <div>
+      <input type="number" min=1 max=100 id="number" name="number" placeholder="Please enter your age">
+    </div>
+    <div>
+      <label id="fitness-level-label" for="fitness-level">Choose your level of fitness:</label>
+    </div>
+    <div>
+      <select name="levels" id="fitness-level">
+        <option id="dropdown" value="">--Please choose an option--</option>
+        <option value="sedentary">Sedentary</option>
+        <option value="lightly-active">Lightly Active</option>
+        <option value="active">Active</option>
+        <option value="highly-active">Highly Active</option>
+      </select>
+     </div>
+     <div>
+      <p>What is your diet like?</p>
+      <input type="radio" id="healthy" name="diet" value="healthy" checked>
+      <label id+"healthy-label" for="healthy">I eat a balanced diet</label>
+     </div>
+     <div>
+       <input type="radio" id="kinda-healthy" name="diet" value="kinda-healthy">
+       <label id="kinda-healthy-label" for="kinda-healthy">Mostly healthy but some junk here and there
+       </label>
+     </div>
+     <div>
+       <input type="radio" id="unhealthy" name="diet" value="unhealthy">
+       <label id="unhealthy-label" for="unhealthy">I don't eat very healthy
+       </label>
+     </div>
+     <div>
+       <label id="mindfulness-label" for="mindfulness">What is your experience with mindfulness?
+       </label>
+     </div>
+     <div>
+       <select name="experience" id="mindfulness">
+         <option value="">--Please choose an option--</option>
+         <option value="no-experience">No experience</option>
+         <option value="some-experience">Some experience</option>
+         <option value="beginner">I'm a beginner </option>
+         <option value="experienced">I'm experienced</option>
+       </select>
+      </div>
+      <div>
+       <p>In regards to mental health, please select all that apply:</p>
+       <input type="checkbox" id="self-help" name="self-help">
+       <label id="self-help-label" for="self-help">I've sought self-help
+       </label>
+      </div>
+      <div>
+        <input type="checkbox" id="medication" name="medication" value="medication">
+        <label id="medication-label" for="medication">I've tried/am on medication.</label>
+      </div>
+      <div>
+        <input type="checkbox" id="therapist" name="therapist" value="therapist">
+        <label id="therapist-label" for="therapist">I've tried/am seeing a therapist.</label>
+      </div>
+      <div>
+        <input type="checkbox" id="program" name="program" value="program">
+        <label id="program-label" for="program">I've tried/am in a program.</label>
+      </div>
+      <div>
+        <label id="other-label" for="other">Other:</label>
+      </div
+      <div>
+        <textarea id="other" name="other"
+          rows="5" cols="38">
+Please leave your comments</textarea>
+        <div>
+        <button type="submit" form="survey-form" id="submit">Submit</button>
+      </div>
+</form>
+</div>
